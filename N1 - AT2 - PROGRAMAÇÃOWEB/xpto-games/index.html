@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual Personagem Você É?</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Universo XPTO</h1>
+        <p>No vasto e misterioso universo de XPTO, heróis e vilões habitam mundos de magia, aventura e desafios épicos. 
+            Descubra quem você seria nesse universo incrível! 
+            Responda a algumas perguntas e veja qual personagem representa sua personalidade.</p>
+        <button id="startBtn">Começar</button>
+        
+        
+        <div id="quiz" class="hidden">
+            <p id="question">Aqui vai a pergunta</p>
+            <button class="option" data-value="0">Opção 1</button>
+            <button class="option" data-value="1">Opção 2</button>
+        </div>
+        
+       
+        <div id="result" class="hidden">
+            <h2>Você é...</h2>
+            <img id="characterImage" src="" alt="Personagem">
+            <p id="characterName">Nome do Personagem</p>
+            <p id="characterDescription">Descrição do personagem.</p>
+            <button id="restartBtn">Recomeçar</button>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
